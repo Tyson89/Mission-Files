@@ -3562,6 +3562,29 @@
 			<item name="Sedan_02_Trunk_Grey" chance="0.20" />
 		</attachments>
 	</type>
+	<type name="Buggy">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.25" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+	</type>
 	<type name="Truck_01_Covered">
 		<attachments chance="1.00">
 			<item name="Truck_01_Wheel" chance="0.60" />
