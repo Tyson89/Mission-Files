@@ -55,9 +55,9 @@
         </children>
     </event>
 	<event name="Animalscorpion">
-        <nominal>6</nominal>
-        <min>5</min>
-        <max>6</max>
+        <nominal>10</nominal>
+        <min>9</min>
+        <max>10</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
