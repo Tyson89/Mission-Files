@@ -7713,7 +7713,6 @@
 						<point pos="-4.177416 3.603546 -0.542746" range="0.901367" height="1.989929" />
 				</container>
 		</group>
-<!--
 		<group name="Land_Mil_Tower_Small" lootmax="1">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="1">
@@ -7726,7 +7725,6 @@
 						<point pos="1.128418 1.277603 -0.120117" range="0.564091" height="1.382492" />
 				</container>
 		</group>
--->
 		<group name="Land_Mil_Fortified_Nest_Small" lootmax="2">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
@@ -8710,15 +8708,13 @@
 				</container>
 		</group>
 		<group name="Land_Airfield_Hangar_Green">
-				<usage name="Industrial" />
+				<usage name="Military" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<category name="food" />
-						<tag name="ground" />
-						<tag name="floor" />
-						<tag name="shelves" />
+						<category name="weapons" />
+						<category name="explosives" />
 						<point pos="-0.556982 -5.873707 -2.182739" range="1.199951" height="2.000000" />
 						<point pos="4.940017 -5.873707 -2.799033" range="1.199951" height="2.000000" />
 						<point pos="10.024015 -5.873707 -2.916298" range="1.199951" height="2.000000" />
@@ -10331,8 +10327,6 @@
 						<category name="clothes" />
 						<category name="weapons" />
 						<category name="explosives" />
-						<tag name="floor" />
-						<tag name="shelves" />
 						<point pos="0.895633 -1.529320 -1.835329" range="0.168750" height="0.421875" />
 						<point pos="1.277878 -1.514824 -0.455658" range="0.100000" height="0.250000" />
 						<point pos="0.775118 -1.529320 0.380147" range="0.306250" height="0.765625" />
@@ -10347,7 +10341,6 @@
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
-						<tag name="floor" />
 						<point pos="0.878961 0.008423 2.423510" range="1.052892" height="2.000015" />
 						<point pos="-2.109011 0.006996 2.902564" range="1.064976" height="2.000008" />
 						<point pos="2.306444 0.034348 -4.022240" range="0.588774" height="1.887747" />
@@ -10360,7 +10353,6 @@
 						<category name="containers" />
 						<category name="clothes" />
 						<category name="books" />
-						<tag name="shelves" />
 						<point pos="1.910018 0.722397 3.717247" range="0.237500" height="0.593750" />
 						<point pos="2.943820 1.016510 4.603766" range="0.237500" height="0.593750" />
 						<point pos="2.450612 1.016510 4.175817" range="0.271875" height="0.679688" />
