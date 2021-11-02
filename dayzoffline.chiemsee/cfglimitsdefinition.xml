@@ -42,6 +42,8 @@
         <usage name="LuggeCrashSide"/>
         <usage name="LuggeSoftMilitary"/>
         <usage name="LuggeSpecialMilitary"/>
+		<usage name="Lugge_Bunker_area1"/>
+		<usage name="Lugge_Bunker_area2"/>
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>

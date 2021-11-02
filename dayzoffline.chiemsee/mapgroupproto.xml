@@ -15802,43 +15802,55 @@
 		<group name="Land_Spawnpoint_Medic" lootmax="2">
 				<usage name ="Medic" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.2" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_Industrial" lootmax="2">
 				<usage name ="Industrial" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_Coast" lootmax="2">
 				<usage name ="Coast" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_Crafting" lootmax="2">
 				<usage name ="Crafting" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.1" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_CrashSide" lootmax="2">
 				<usage name ="LuggeCrashSide" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_SoftMilitary" lootmax="2">
-				<usage name ="Military" />
+				<usage name ="Lugge_Bunker_area1" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_SpecialMilitary" lootmax="2">
 				<usage name ="LuggeSpecialMilitary" />
 				<container name="lootFloor" lootmax="2">
-						<point pos="0 0.1 0" range="0.9" height="0.9" />
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
+				</container>
+		</group>
+		<group name="Land_Spawnpoint_Bunker_area1" lootmax="2">
+				<usage name ="Lugge_Bunker_area1" />
+				<container name="lootFloor" lootmax="2">
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
+				</container>
+		</group>
+		<group name="Land_Spawnpoint_Bunker_area2" lootmax="2">
+				<usage name ="Lugge_Bunker_area2" />
+				<container name="lootFloor" lootmax="2">
+						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_zisb_di_small_cave_cross_1" lootmax="2">	
