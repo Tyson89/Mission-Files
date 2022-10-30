@@ -1,12 +1,16 @@
-{
-    "ZedLocations": [
-        {
-            "name": "trigger1",
-            "triggerpos": "723.506836 18.343584 2990.665527",
-            "triggermins": "-1 -0.2 -1",
-            "triggermaxs": "1 1 1",
-            "triggerdelay": 1800,
-            "spawnerpos": [
+Here is the information you need for the SpawnerBubaku mod to get AI spawning in the underground area.
+https://steamcommunity.com/sharedfiles/filedetails/?id=2482312670&searchtext=bubak
+
+AI Class Names:
+                "ZmbM_NBC_Yellow",
+                "ZmbM_NBC_Grey"
+
+
+trigger1
+
+triggerpos: "723.506836 18.343584 2990.665527"
+
+Ai Spawns
                 "687 3.5 2902",
                 "630 2.3 2889",
 				"687.813232 3.305384 2902.635742",
@@ -59,20 +63,12 @@
 				"690.858215 17.131376 2838.968262",
 				"644.340027 17.131180 2904.857910",
                 "617.037048 3.172890 2953.646484"
-            ],
-            "zednum": 120,
-            "Stufftospawn": [
-                "ZmbM_NBC_Yellow",
-                "ZmbM_NBC_Grey"
-            ]
-        },
-        {
-            "name": "trigger2",
-            "triggerpos": "6223.155273 1.899420 4928.493652",
-            "triggermins": "-2 -0.2 -2",
-            "triggermaxs": "2 2 2",
-            "triggerdelay": 3600,
-            "spawnerpos": [
+
+trigger2
+
+triggerpos: "6223.155273 1.899420 4928.493652"
+
+Ai Spawns
 				"6127.815430 2.496208 5079.518555",	
 				"6131.092773 2.575237 5080.511230",
 				"6126.328613 2.387749 5075.293945",
@@ -94,11 +90,3 @@
 				"6350.637207 2.194798 4710.464844",
 				"6354.958008 2.630591 4706.545898",
 				"6359.573730 2.847972 4708.035645"							
-            ],
-            "zednum": 21,
-            "Stufftospawn": [
-                "ZmbM_SoldierNormal"
-            ]
-        }
-    ]
-}
