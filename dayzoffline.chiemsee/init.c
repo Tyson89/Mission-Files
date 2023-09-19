@@ -1,14 +1,5 @@
 void main()
 {
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
-
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
-
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-	weather.GetRain().Set( 0, 0, 1);
-	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
-
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
@@ -16,7 +7,7 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 9, reset_day = 20;
+	int reset_month = 8, reset_day = 10;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
@@ -37,8 +28,6 @@ void main()
 			}
 		}
 	}
-		// GetCEApi().ExportProxyData( "5120 0 5120", 10240 );  			// Generate mapgrouppos.xml
-		// GetCEApi().ExportClusterData();									// Generate mapgroupcluster.xml
 }
 
 class CustomMission: MissionServer
@@ -47,7 +36,7 @@ class CustomMission: MissionServer
 	{
 		if ( itemEnt )
 		{
-			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
+			float rndHlt = Math.RandomFloat( 0.45, 0.65 );
 			itemEnt.SetHealth01( "", "", rndHlt );
 		}
 	}
@@ -76,22 +65,12 @@ class CustomMission: MissionServer
 			SetRandomHealth( itemClothing );
 			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
-			if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 2 );
+			player.SetQuickBarEntityShortcut(itemEnt, 2);
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-			SetRandomHealth( itemEnt );
-
-			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-			else
-				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
-
+			player.SetQuickBarEntityShortcut(itemEnt, 1);
 			SetRandomHealth( itemEnt );
 		}
 		
