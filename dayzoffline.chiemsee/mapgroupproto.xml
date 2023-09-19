@@ -10898,6 +10898,7 @@
 		</group>
 		<group name="Land_Castle_Bergfrit">
 				<usage name="Hunting" />
+				<usage name="Historical" />
 				<container name="lootFloor">
 						<category name="tools" />
 						<category name="containers" />
@@ -10929,6 +10930,7 @@
 		</group>
 		<group name="Land_Castle_Gate" lootmax="4">
 				<usage name="Hunting" />
+				<usage name="Historical" />
 				<container name="lootFloor">
 						<category name="tools" />
 						<category name="containers" />
@@ -10953,6 +10955,7 @@
 		</group>
 		<group name="Land_Castle_Stairs_nolc" lootmax="3">
 				<usage name="Hunting" />
+				<usage name="Historical" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
 						<category name="containers" />
@@ -11741,6 +11744,7 @@
 				<usage name="Coast" />
 				<usage name="Town" />
 				<usage name="Village" />
+				<usage name="Historical" />
 				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
@@ -12775,6 +12779,7 @@
 		<group name="Land_Castle_Bastion2" >
 				<usage name="Hunting" />
 				<usage name="Village" />
+				<usage name="Historical" />
 				<container name="lootFloor" lootmax="2">
 						<category name="tools" />
 						<category name="containers" />
@@ -15766,10 +15771,7 @@
 				<container name="lootFloor" lootmax="2">
 						<point pos="0.131 3.261 1.053" range="0.9" height="0.9" flags="32" />
 				</container>
-		</group>
-		
-		
-			
+		</group>	
 		<group name="Land_jmc_van_pinkies" lootmax="6">				
 				<usage name="Village" />								
 				<usage name="Town" />	
@@ -15824,32 +15826,41 @@
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_CrashSide" lootmax="2">
-				<usage name ="LuggeCrashSide" />
+				<usage name ="Military" />
 				<container name="lootFloor" lootmax="2">
 						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_SoftMilitary" lootmax="2">
-				<usage name ="Lugge_Bunker_area1" />
+				<usage name ="Military" />
 				<container name="lootFloor" lootmax="2">
 						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_SpecialMilitary" lootmax="2">
-				<usage name ="LuggeSpecialMilitary" />
+				<usage name ="Military" />
 				<container name="lootFloor" lootmax="2">
 						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_Bunker_area1" lootmax="2">
-				<usage name ="Lugge_Bunker_area1" />
+				<usage name ="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="explosives"/>
+						<category name="clothes"/>
+						<category name="weapons" />				
+						<category name="tools" />
+						<category name="containers" />
 						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>
 		<group name="Land_Spawnpoint_Bunker_area2" lootmax="2">
-				<usage name ="Lugge_Bunker_area2" />
+				<usage name ="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="explosives"/>
+						<category name="weapons" />				
+						<category name="tools" />
+						<category name="containers" />
 						<point pos="-0.008034 0.058698 0.023372" range="0.5" height="1.5" /> 
 				</container>
 		</group>

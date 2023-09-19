@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="Buggy">
+	<type name="Bathmobile_Chiemsee_blue">
         <nominal>0</nominal>
         <lifetime>604800</lifetime>
         <restock>0</restock>
@@ -43,10 +43,10 @@
 		<usage name="Military" />
 	</type>
    <type name="Scrapmetal">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>5</min>
+		<min>0</min>
 		<quantmin>10</quantmin>
 		<quantmax>20</quantmax>
 		<cost>100</cost>

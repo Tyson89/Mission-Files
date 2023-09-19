@@ -32,23 +32,14 @@
 		<usage name="Lunapark"/>
 		<usage name="SeasonalEvent"/>
 		<usage name="ContaminatedArea"/>
-		<!-- LUGGE CUSTOM USAGE FLAGS -->
-		<usage name="Boot"/>
-		<usage name="ORE"/>
-		<usage name="LuggeMedic"/>
-        <usage name="LuggeIndustrial"/>
-        <usage name="LuggeCoast"/>
-        <usage name="LuggeCrafting"/>
-        <usage name="LuggeCrashSide"/>
-        <usage name="LuggeSoftMilitary"/>
-        <usage name="LuggeSpecialMilitary"/>
-		<usage name="Lugge_Bunker_area1"/>
-		<usage name="Lugge_Bunker_area2"/>
+		<usage name="Historical"/>
+		<usage name="Underground"/>
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
+		<value name="unique"/>
 	</valueflags>
 </lists>
