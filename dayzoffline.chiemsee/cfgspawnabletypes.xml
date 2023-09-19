@@ -3691,7 +3691,6 @@
 			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
 		</attachments>
 	</type>
-<<<<<<< HEAD
 	<type name="Bathmobile_Chiemsee_blue">
 		<attachments chance="1.00">
 			<item name="HatchbackWheel" chance="0.80" />
@@ -3716,39 +3715,12 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="SparkPlug" chance="0.60" />
-=======
-	<type name="Buggy">
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.70" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.30" />
->>>>>>> ef00f868910e4870d8206c3ebf815b6fdec6502b
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-<<<<<<< HEAD
 			<item name="HeadlightH7" chance="0.40" />
-=======
-			<item name="HeadlightH7" chance="0.20" />
->>>>>>> ef00f868910e4870d8206c3ebf815b6fdec6502b
 		</attachments>
 	</type>
 <!--
