@@ -79,8 +79,8 @@
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
-		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="AK74_Black">
 		<nominal>0</nominal>
@@ -135,10 +135,10 @@
 		<value name=""/>
 	</type>
 	<type name="AKM">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>3600</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12270,7 +12270,7 @@
 		<value name=""/>
 	</type>
 	<type name="M4A1">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<restock>3600</restock>
 		<lifetime>28800</lifetime>
 		<min>1</min>
@@ -16702,6 +16702,7 @@
 		<usage name="Military"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="SKS_Bayonet">
 		<nominal>10</nominal>
@@ -16740,10 +16741,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="1" count_in_map="1" count_in_cargo="0" crafted="0" deloot="1"/>
+		<flags count_in_hoarder="0" count_in_player="1" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
-		<value name=""/>
+		<value name="Tier4"/>
 	</type>
 	<type name="Saiga">
 		<nominal>8</nominal>
@@ -20545,10 +20546,10 @@
 		<value name=""/>
 	</type>
 	<type name="VSS">
-		<nominal>1</nominal>
+		<nominal>4</nominal>
 		<restock>3600</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
