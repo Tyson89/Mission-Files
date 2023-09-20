@@ -27,7 +27,7 @@
 		<usage name="Military" />
 	</type>
 	<type name="Fwinkies">
-		<nominal>8</nominal>
+		<nominal>9</nominal>
 		<lifetime>5600</lifetime>
 		<restock>0</restock>
 		<min>4</min>
