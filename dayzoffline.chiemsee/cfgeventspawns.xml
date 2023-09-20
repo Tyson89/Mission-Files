@@ -292,6 +292,7 @@
 	<event name="InfectedMonster" />
     <event name="AnimalDeer" />
     <event name="AnimalCow" />
+    <event name="Animalscorpion" />
     <event name="AnimalSheep" />
     <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
